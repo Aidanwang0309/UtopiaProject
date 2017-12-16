@@ -53,6 +53,8 @@ section#titlechart {
 	min-width: 100%;
 	height: 100vh;
     background-image:url("../img/background.jpg");
+    background-color: #1111118c;
+    background-blend-mode: color-dodge;
     background-attachment: fixed;
     background-repeat:round;
 }
@@ -995,10 +997,10 @@ a.viewsource:before {
 	background-image: none;
 }
 .demo#section-slides .panel, .demo#section-wipes .panel {
-	background-image: url("../img/example_bg_spacer_v.gif");
+
 }
 .demo#section-wipes #pinContainer .turqoise, .demo#section-wipes #pinContainer .green, .demo#section-slides #slideContainer .panel {
-	background-image: url("../img/example_bg_spacer_h.gif");
+
 }
 .demo#section-slides .panel > b, .demo#section-wipes .panel > b {
 	font-size: 15px;

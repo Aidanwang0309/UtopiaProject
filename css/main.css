@@ -86,6 +86,12 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -101,6 +107,7 @@ textarea {
 }
 
 #nav .nav-container{
+    font-family: monospace;
     max-width: inherit;
     position: relative;
     top:25%;
@@ -127,29 +134,215 @@ textarea {
     top:50%;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+#section-wipes #pinContainer .poster1{
+    background-image: url(../img/World-War-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:#111111bf;
+}
+
+#titlechart .title {
+    width:50%;
+    margin-left:7rem;
+    margin-right: auto;
+
+}
+
+#titlechart .title h1{
+    background: rgba(224,224,224,0.5);
+    padding:5px 40px 5px 5px;
+    margin-left: 25px;
+    font-size: 4rem;
+}
+
+#titlechart .title h4{
+    background: rgba(224,224,224,0.3);
+    padding:5px 40px 5px 5px;
+    margin-left: 25px;
+
+}
+
+.posterContainer .poster1 .left-hand{
+    height:50%;
+    width:50%;
+}
+
+.posterContainer .poster1 .right-hand{
+    height:10%;
+    width:25%;
+    -webkit-transform: rotate(-65deg);
+    -moz-transform: rotate(-65deg);
+    -ms-transform: rotate(-65deg);
+    -o-transform: rotate(-65deg);
+    transform: rotate(-65deg);
+}
+
+
+
+.posterContainer .overlay{
+    height:54%;
+    width:80%;
+    background:rgba(255,255,255,0.5);
+    position: absolute;
+    left:20%;
+    top:20%;
+    font-size: ;
+}
+.posterContainer .overlay p{
+    font-size: 2.5rem;
+    padding-left: 35%;
+    color: white;
+}
+.posterContainer .overlay p:first-child{
+    font-size: 4rem;
+    margin-bottom: -10px;
+}
+
+.posterContainer .overlay p:nth-child(2){
+    padding-left: 40%;
+}
+.posterContainer .overlay .data p{
+    font-weight: 200;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1.2rem;
+    padding-right:9%;
+    text-align: right;
+    line-height: 2rem;
+}
+.posterContainer .overlay .data p span{
+    font-weight: 800;
+    font-size: inherit;
+    color: #ededed;
+
+}
 
 
 
 
+#section-wipes #pinContainer .poster2 .autism-pic{
+    width:400px;
+    height:650px;
+    position: absolute;
+    right:12%;
+
+}
+
+#section-wipes #pinContainer .poster2 .autism-pic img{
+    height:100%;
+    width:100%;
+}
+
+#section-wipes #pinContainer .poster2 .autism-pic .grey{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#section-wipes #pinContainer .poster2 .autism-pic .grey{
+    transition: all 5s ease;
+}
+
+#poster2 .text-container{
+    position: absolute;
+    top:20%;
+    left:15%;
+    text-align: left;
+}
 
 
+#poster2 .text-container p:first-child{
+    font-size:4rem;
+    margin-bottom: 0;
+}
+
+#poster2 .text-container p:nth-child(2){
+    font-size: 2.5rem;
+}
+
+#poster2 .text-container .data p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+#poster2 .text-container .data p span{
+    font-weight: 800;
+    font-size: 1.2rem;
+
+}
+
+#section-wipes #pinContainer #poster3{
+    background-image: url(../img/poster3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 
+#section-wipes #pinContainer #poster3 {
+    background-color: #474e54;
+}
 
+#section-wipes #pinContainer #poster3 .text-container{
+    color: black;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    height: 50%;
+    background: #fefefea6;
+    width: 50%;
 
+}
 
+#poster3 .text-container p:first-child{
+    font-size: 4rem;
+}
+#poster3 .text-container p:nth-child(2){
+    font-size: 2.5rem;
+}
 
+#poster3 .text-container .data p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
 
+#poster3 .text-container .data p span{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
 
+#section-wipes #pinContainer #poster4{
+    background-color:#454C53;
+}
 
+#section-wipes #pinContainer #poster4 .image-container{
+    position: absolute;
+    left:28%;
+    width:40%;
+    height:50%;
+}
 
+#section-wipes #pinContainer #poster4 .image-container .right-head{
+    margin-top:25px;
+}
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
+#section-wipes #pinContainer #poster4 .image-container .left-head{
+    margin-top:-40px;
+}
+#section-wipes #pinContainer #poster4 .text-container{
+    position: absolute;
+    top:39%;
+    left:15%;
+}
+#section-wipes #pinContainer #poster4 .text-container p{
+    font-size:3rem;
+    color: white;
+}
+
+    /* ==========================================================================
+       Helper classes
+       ========================================================================== */
 
 /*
  * Hide visually and from screen readers
