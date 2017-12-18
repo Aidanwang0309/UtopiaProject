@@ -340,6 +340,28 @@ textarea {
     color: white;
 }
 
+#about{
+    background: #b6b6b636;
+    height:100%;
+    width:100%;
+}
+
+#about-des{
+    margin:0 auto;
+    padding-top:13%;
+}
+
+#contact{
+    background: #b6b6b636;
+    height:100vh;
+    width:100%;
+}
+#contact-form{
+    margin:0 auto;
+    padding-top:13%;
+}
+
+
     /* ==========================================================================
        Helper classes
        ========================================================================== */
